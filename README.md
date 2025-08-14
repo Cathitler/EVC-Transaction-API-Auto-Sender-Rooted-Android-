@@ -1,0 +1,1 @@
+# EVC-Transaction-API-Auto-Sender-Rooted-Android-
