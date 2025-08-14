@@ -26,8 +26,8 @@ This project turns your rooted Android phone into a mini EVC+ gateway:
 🧩 What’s inside
 
 cex-evc-automation/
-├─ parser/
-│  └─ MSgforward.py          # Flask: parses notifications & stores evc_messages.json
+  parser/
+│   MSgforward.py          # Flask: parses notifications & stores evc_messages.json
 ├─ scripts/
 │  ├─ send_evc.sh            # Termux (root): sends *712*NUMBER*AMOUNT# + auto PIN
 │  └─ send_EVCPlus.py        # Python wrapper to call send_evc.sh
