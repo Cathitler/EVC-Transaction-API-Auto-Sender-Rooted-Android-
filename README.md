@@ -124,7 +124,7 @@ http://<your-phone-or-computer-lan-ip>:5000
 {
   "type": "received",
   "amount": 0.5,
-  "counterparty": "0615925885",
+  "counterparty": "06",
   "transaction_datetime": "2025-08-14T16:43:28",
   "new_balance": 1.99,
   "id": "8878ef30-c464-4fb2-99d8-5c6e9ea4a665"
@@ -183,7 +183,7 @@ nano send_evc.sh
 
 PIN="2005"  # CHANGE THIS to your real PIN
 
-NUMBER="$1"    # arg1: receiver number (e.g. 615925885)
+NUMBER="$1"    # arg1: receiver number (e.g. 615555555)
 AMOUNT="$2"    # arg2: amount (e.g. 1)
 
 if [ -z "$NUMBER" ] || [ -z "$AMOUNT" ]; then
@@ -220,7 +220,7 @@ chmod +x ~/send_evc.sh
 
 C) Run it
 
-./send_evc.sh 615925885 1
+./send_evc.sh 615555555 1
 
 You should see:
 
@@ -260,7 +260,7 @@ def send_evc(number: str, amount):
                     number, str(amount)])
 
 # Example
-send_evc("615925885", 5)
+send_evc("615555555", 5)
 
 
 ---
