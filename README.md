@@ -1,4 +1,4 @@
-# EVC-Transaction-API-Auto-Sender-Rooted-Android-
+# EVC+-Transaction and API-Auto-Sender-
 
 
 ---
