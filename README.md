@@ -25,6 +25,8 @@ This project turns your rooted Android phone into a mini EVC+ gateway:
 
 🧩 requirements
  Flask 
+ magisk Root
+ terminal
 
 
 
